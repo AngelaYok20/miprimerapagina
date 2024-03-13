@@ -134,6 +134,7 @@ border-radius: 10px;
     .curso-texto a{
     color: #594520;
     }
+  
 /* Servicios */
 
 /*Redes sociales*/
@@ -161,4 +162,10 @@ border-radius: 10px;
 
 /*Contactanos*/
 
-    
+.greetings {
+    font-size: 30px;
+    color: #a95e97;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    }
