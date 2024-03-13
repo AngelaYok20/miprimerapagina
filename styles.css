@@ -1,0 +1,164 @@
+/*barra lateral*/
+ol, ul{ list-style: none;}
+a{ text-decoration: none;}
+body{
+background-color:rgb(230, 191, 241);
+}
+header{
+    display: flex;
+    background-color: rgb(75, 7, 76);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+header nav ul {
+    display: flex;
+    gap: 2em;        
+    margin: auto;
+    margin-right: 2em;
+    }
+header a i{
+    margin-left: 20px;
+    padding: 0.5em;
+    font-size: 2em;
+    color:rgb(230, 191, 241);
+    }
+/*barra lateral*/
+
+/*Acerca de mí*/
+h1{
+font-size: 30px;
+color:rgb(138, 15, 142);
+font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.acerca-imagen{width: 40%;}
+h2{
+font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+img{
+display: flex;
+justify-content:right;
+max-width: 100%;
+border-radius: 10px
+}
+header nav ul li a{
+    margin-right: 1px;
+    color: rgb(255, 255, 255);
+}
+.sección-1{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding: 20px 200px;
+    align-items: center;
+    gap: 10px;
+    background-color: #eee;
+}
+ /*Acerca de mí*/
+ 
+/*Trabajos*/
+.trabajos {
+    display: grid;   
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    padding: 30px 0;
+   }
+   .trabajo {
+       display: grid;
+       grid-template-rows: 60% 40%;
+   }
+   .trabajo-imagen img {
+border-radius: 10px;
+   }
+   .trabajo-texto {
+       background-color: #eee;
+       padding: 10px 15px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       color: #594520;
+       border-bottom-left-radius: 10px;
+       border-bottom-right-radius: 10px;
+       }
+       .trabajo-texto h3{
+       font-size: 30px;
+       color: #594520;
+       }
+       .trabajo-texto p{
+       font-size: 18px;
+       text-align: justify;
+       line-height: 1.5;
+       }
+       .trabajo-texto a{
+       color: #594520;
+       }
+/*Trabajos*/
+/* Servicios */
+    .cursos {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 40px;
+    padding: 30px 0;
+    }
+    .curso {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    }
+    .curso-imagen img{
+        border-radius: 10px;
+    }
+    .curso-texto {
+    background-color: #eee;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #594520;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    .curso-texto h3{
+    font-size: 30px;
+    color: #594520;
+    }
+    .curso-texto p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    }
+    .curso-texto a{
+    color: #594520;
+    }
+/* Servicios */
+
+/*Redes sociales*/
+    h3{
+        margin: 0%;
+        color: #eee;
+        font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    footer nav ul{
+    padding: 5px;
+    margin: 0%;
+    }
+    footer nav ul li a{
+        color: #eee;
+    }
+    .redescontenedor {
+        background-color:  #2f1228;
+        padding: 1%;
+    }   
+/*Redes sociales*/
+
+/*Contactanos*/
+
+/*Contactanos*/
+
+    
